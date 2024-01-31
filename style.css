@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  background-color: #333;
+  padding: 20px;
+}
+
+.grid-note {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(0, 0, 0);
+  border: 1px solid rgb(0, 100, 0);
+}
+
+#audioInput {
+  margin-top: 20px;
+}
